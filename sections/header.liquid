@@ -7,7 +7,9 @@
   media="print"
   onload="this.media='all'"
 >
-<p class="text-3xl font-bold underline">Hello World</p>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<p class="text-3xl font-bold underline new">Hello World</p>
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
